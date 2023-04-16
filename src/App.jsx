@@ -6,6 +6,9 @@ import Details from './components/Details';
 import axios from 'axios';
 
 const App = () => {
+
+  //npx vite
+
   const [users, setUsers] = useState([])
   const [userInfo, setUserInfo] = useState(null);
 
